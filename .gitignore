@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+notebooks/.ipynb_checkpoints/
+
+# 大文件数据（不入库，本地复现可自行放回 data/）
+data/train.csv
+data/transactions.csv
+data/sample_submission.csv
+db/*.db
+
+# 旧版本输出（只保留 v6）
+outputs/
+outputs_v3/
+outputs_v4/
+outputs_v5/
+plots/
+plots_v3/
+plots_v4/
+plots_v5/
+predictions.csv
+
+# v6 中间大表（由 full_pipeline_v6.py 重新生成）
+outputs_v6/sales_analysis.csv
